@@ -24,7 +24,7 @@ let state;
 // non premative
 // object
 // array 
-//function 
+// function 
 // date
 
 
