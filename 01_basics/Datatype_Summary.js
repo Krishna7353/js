@@ -38,9 +38,22 @@ console.log(typeof(bigint));
     
  }
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(premative) heap(non premative )
+let myYoutubeName="KrishnaRathod.com"
+let anotherName="Kalu.com"
+console.log(myYoutubeName)
+// console.log(anotherName);
 
 
-
-
-
-
+let user1={
+    email:"krishnarathod7353@gmail.com",
+    userupi:"user@ybl"
+}
+let user2=user1
+// let user2={
+   user2.email="kalu.com"
+//     userupi:"kalu@ybl"
+// }
+console.log(user1.email);
+console.log(user2.email)
