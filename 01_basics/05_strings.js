@@ -22,8 +22,8 @@ const repo=50
 
 
 
-console.log(gameName.charAt(6));
-console.log(gameName.indexOf('a'));
+// console.log(gameName.charAt(6));
+// console.log(gameName.indexOf('a'));
 // console.log(gameName.startsWith('k'));
 // console.log(gameName.endsWith('a'));
 
@@ -33,7 +33,7 @@ console.log(gameName.indexOf('a'));
 
 
 
- const newString = gameName.substring(0,5)
+ const newString = gameName.substring(0,7)
 //  console.log(newString)
 
 
@@ -44,6 +44,10 @@ let l=gameName.substring(0,9)
 
 const anotherString=gameName.slice(-7,3)
 // console.log(anotherString);
+
+
+
+
 
 
 
@@ -60,17 +64,32 @@ const url="krishnaRathod7353@gamil.com"
 // console.log(url.replace('7353','1234'));
 // console.log(url.replace('krishna','kalu'));
 
-// console.log(url.includes('krishna'));
+
+
+console.log(url.includes('Krishna'));
+
+
+
 
 
 const kalu='kishna-rathod-com'
-console.log(kalu.split("-"))
+console.log(kalu.split("-",33))
 // console.log(kalu.bold('krishna'));
 
 
 
 
+ console.log(newString.slice(0,2))
+
+// console.log(anotherString);
 
 
+//1. Case Manipulation
+//2. String Modification
+//3. Searching in Strings
+//4. Extracting Parts of a String
+//5. Splitting and Joining
+//6. Character Access
+//7. Template Literals
 
 
