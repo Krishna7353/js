@@ -8,15 +8,18 @@ const newArr=new Array(1,2,3,4,)
 
 //Array methods
 
-// myARR.push(6)
-// myARR.pop()
-// myARR.pop()
+myARR.push(6)
+myARR.pop()
+myARR.pop()
 
-
-// myARR.unshift(6)
+console.log(myARR)
+myARR.unshift(6)
+// console.log(myARR)
+myARR.shift();
+myARR.shift();
+// console.log(myARR)
 // myARR.shift()
-// myARR.shift()
-
+// console.log(myARR)
 
 // console.log(myARR.includes(9));
 // console.log(myARR.indexOf(7));
@@ -42,7 +45,7 @@ const newarr=myARR.join()
 
 
 
-console.log(myARR);
+// console.log(myARR);
 
 
 
