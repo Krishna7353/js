@@ -1,7 +1,7 @@
 const coding=["java","ruby","Python","Javascript","cpp"]
 
-coding.forEach(function(value){
-// console.log(value );
+coding.forEach(function (value){
+console.log(value );
 })
 
 
