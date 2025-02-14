@@ -2,7 +2,7 @@ const user={
     username:"Krishna ",
     price:999,
     welcomemessage :function(){
-    //     console.log(`${this.username},welcome to website`);   
+        console.log(`${this.username},welcome to website`);   
     //    console.log(this) 
     }
 }
@@ -10,7 +10,7 @@ user.welcomemessage()
 user.username='kalu'
 user.price=894
 user.welcomemessage()
-// console.log(this) 
+console.log(this) 
 
 
 
