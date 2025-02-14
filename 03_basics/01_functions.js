@@ -35,7 +35,7 @@ if (username===undefined) {
  return `${username} just loged in `  
 }
 
-// console.log(loginUserMessge("krishna"));     // argument 
+console.log(loginUserMessge("krishna"));     // argument 
 
 
 
@@ -43,7 +43,7 @@ if (username===undefined) {
 function calculateCartPrice(val1,val2,...num1) {
      return num1
 }
-// console.log(calculateCartPrice(100,200,400,500));
+console.log(calculateCartPrice(100,200,400,500));
 
 
 
